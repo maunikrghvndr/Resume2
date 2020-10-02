@@ -1,0 +1,26 @@
+﻿[
+  {
+    "outputFile": "wwwroot/stylesheet/Main.css",
+    "inputFile": "wwwroot/stylesheet/Main.scss"
+  },
+  {
+    "outputFile": "wwwroot/stylesheet/Pages/_home.css",
+    "inputFile": "wwwroot/stylesheet/Pages/_home.scss"
+  },
+  {
+    "outputFile": "wwwroot/bootstrap/scss/bootstrap.css",
+    "inputFile": "wwwroot/bootstrap/scss/bootstrap.scss"
+  },
+  {
+    "outputFile": "C:/Users/mauni/.nuget/packages/bootstrap/4.5.2/contentFiles/any/any/wwwroot/js/bootstrap.es5.js",
+    "inputFile": "C:/Users/mauni/.nuget/packages/bootstrap/4.5.2/contentFiles/any/any/wwwroot/js/bootstrap.js"
+  },
+  {
+    "outputFile": "wwwroot/stylesheet/Abstract/_variables.css",
+    "inputFile": "wwwroot/stylesheet/Abstract/_variables.scss"
+  },
+  {
+    "outputFile": "wwwroot/stylesheet/Other/_nav.css",
+    "inputFile": "wwwroot/stylesheet/Other/_nav.scss"
+  }
+]
