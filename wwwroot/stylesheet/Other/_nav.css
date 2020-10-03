@@ -42,6 +42,8 @@
         background-color: #d5d9db;
         text-decoration: none;
         outline: none; }
+  .navbar-nav > li > a > numbering {
+    color: #E5E5E5; }
   .navbar-nav .dropdown-menu {
     font-size: 14px;
     background-color: #679DC0 !important;

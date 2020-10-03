@@ -3,6 +3,13 @@ nav.navbar {
     background: linear-gradient($navy,$navy);
     outline-color: $indigo;
 }
+.resume-button {
+    font-size: 14px;
+    color: $sh-cool-gray;
+    background-color: $navy;
+    margin-top: 10px;
+    border-color: $indigo;
+}
 @media (min-width: 768px) {
     .navbar-brand.abs {
         position: absolute;
@@ -12,6 +19,21 @@ nav.navbar {
     }
 }
 
-body{
-    background:$navy
+.numbering h1 {
+    color:$sh-cool-gray;
+    font:14px;
+}
+
+.signature{
+    font:14px;
+    color:$indigo;
+    
+}
+
+
+
+
+
+body {
+    background: $navy
 }

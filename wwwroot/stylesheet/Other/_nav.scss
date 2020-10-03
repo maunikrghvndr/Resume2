@@ -19,10 +19,10 @@
 }
 
 .navbar-nav {
-    color: #fff;    
+    color: #fff;
     font-family: $font-secondary-header;
     font-weight: 400;
-    
+
 
     .nav-link {
         padding: 15px 0;
@@ -63,61 +63,64 @@
         }
     }
 
-    .dropdown-menu {
-        font-size: 14px;
-        background-color: $sh-primary-alt !important;
-        margin-top: -1px;
-        border-radius: 0px;
+    > li > a > numbering{
+        color:$sh-warm-gray;
 
-        .dropdown-item {
-            color: white;
-            margin-left: 0px;
-            font-weight: 600;
+        }
+        .dropdown-menu {
+            font-size: 14px;
+            background-color: $sh-primary-alt !important;
+            margin-top: -1px;
+            border-radius: 0px;
 
-            &:hover {
-                color: $sh-primary !important;
-                background-color: transparent !important;
+            .dropdown-item {
+                color: white;
+                margin-left: 0px;
+                font-weight: 600;
+
+                &:hover {
+                    color: $sh-primary !important;
+                    background-color: transparent !important;
+                }
             }
+        }
+
+        .nav-searchbar {
+            width: max-content;
+            padding: 5px 15px 5px 15px;
         }
     }
 
-    .nav-searchbar {
-        width: max-content;
-        padding: 5px 15px 5px 15px;
+    .btn-group-search-bar {
+        .dropdown-menu {
+            background-color: white !important;
+            min-width: 100%;
+        }
     }
-}
 
-.btn-group-search-bar {
-    .dropdown-menu {
-        background-color:white !important;
-        min-width: 100%;
+    .navbar-toggler:focus {
+        outline: 0;
+        border: 0;
     }
-}
 
-.navbar-toggler:focus {
-    outline: 0;
-    border: 0;
-}
+    .navbar-toggler i {
+        color: $sh-primary;
+    }
 
-.navbar-toggler i {
-    color: $sh-primary;
-}
+    .nav li a:focus {
+        text-decoration: none;
+        background-color: initial;
+        outline: none;
+    }
 
-.nav li a:focus {
-    text-decoration: none;
-    background-color: initial;
-    outline: none;
-}
-
-#header-logo {
-    img {
-        height: 42px;
-        width: 42px;
+    #header-logo {
+        img {
+            height: 42px;
+            width: 42px;
+        }
         
     }
-}
-
-/*@media (max-width: 991px) {
+    /*@media (max-width: 991px) {
     .navbar-nav .nav-link {
         padding: 10px;
     }

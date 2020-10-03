@@ -2,12 +2,27 @@
   background: linear-gradient(#0a192f, #0a192f);
   outline-color: #00ffff; }
 
+.resume-button {
+  font-size: 14px;
+  color: #999999;
+  background-color: #0a192f;
+  margin-top: 10px;
+  border-color: #00ffff; }
+
 @media (min-width: 768px) {
   .navbar-brand.abs {
     position: absolute;
     width: 100%;
     left: 0;
     text-align: center; } }
+
+.numbering h1 {
+  color: #999999;
+  font: 14px; }
+
+.signature {
+  font: 14px;
+  color: #00ffff; }
 
 body {
   background: #0a192f; }
