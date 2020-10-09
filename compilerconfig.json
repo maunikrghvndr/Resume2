@@ -22,5 +22,10 @@
   {
     "outputFile": "wwwroot/stylesheet/Other/_nav.css",
     "inputFile": "wwwroot/stylesheet/Other/_nav.scss"
+  },
+  
+  {
+    "outputFile": "wwwroot/stylesheet/Pages/_animation.css",
+    "inputFile": "wwwroot/stylesheet/Pages/_animation.scss"
   }
 ]

@@ -1,17 +1,4 @@
 <body>
   <app-nav-menu></app-nav-menu>
-  <app-home></app-home>
-  <div class="container">
-    <h2>Hero List</h2>
-
-    <p><i>Pick a hero from the list</i></p>
-    <ul>
-      <li *ngFor="let hero of heroes" (click)="selectHero(hero)">
-        {{hero.name}}
-      </li>
-    </ul>
-
-    <app-hero-detail *ngIf="selectedHero" [hero]="selectedHero"></app-hero-detail>
-    <router-outlet></router-outlet>
-  </div>
+  <app-home></app-home>  
 </body>
