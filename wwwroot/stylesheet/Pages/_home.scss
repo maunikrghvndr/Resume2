@@ -33,6 +33,51 @@ nav.navbar {
     color: $blue;
 }
 
+#pageloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1px;
+    height: 100vh;
+
+    .cta {
+        position: absolute;
+        display:inline;
+        top: 50%;
+        bottom:50%;
+        transform: translate(-50%,-50%);
+        font-size: 300%;
+        color: $indigo;
+        text-align: match-parent;        
+    }
+}
+
+.el {
+    position: absolute;
+    opacity: 1;
+    width: 2px;
+    height: 24vh;
+    margin-top: -12vh;
+    transform-origin: 50% 100%;
+    background: white;
+}
+
+
+
+
+
 
 
 

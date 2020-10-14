@@ -1,95 +1,33 @@
 ﻿@import "../Abstract/_variables.scss";
 
 
-
-body {
-    background-color: #6FCBC6;
-    padding-top: calc(50vh - 80px);
-    text-align: center;
-}
-
-/**
-* SVG logo
-**/
-svg {
-    padding: 12px;
-
-    g#logo path {
-        /**
-		* Logo
-		**/
-        &#logo-left,
-        &#logo-right {
-            animation: drawing 12s ease-out;
-            animation-fill-mode: forwards;
-            stroke: #EFE9E0;
-            stroke-dasharray: 1000;
-            stroke-dashoffset: 1000;
-        }
-
-        &#logo-left {
-            animation-delay: 1.2s;
-        }
-
-        &#logo-right {
-            animation-delay: 2.05s;
-        }
-        /**
-		* Text
-		**/
-        &#text-code,
-        &#text-resolution {
-            animation: appear 1.5s ease;
-            animation-delay: 2.35s;
-            animation-fill-mode: forwards;
-            fill: #EFE9E0;
-            opacity: 0;
-            transform: translateX(-15px);
-        }
-    }
-}
-
-/**
-* CSS animations
-**/
-@keyframes appear {
-    to {
-        margin-left: 5px;
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-@keyframes drawing {
-    to {
-        stroke-dashoffset: 0;
-    }
+.pageloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
 }
 
 
-/**
-* Page load animation
-**/
-.intro-animation {
-    overflow: hidden;
 
-    .left, .right {
-        bottom: 0;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        z-index: 120;
-    }
+wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1px;
+    height: 100vh;
+}
 
-    .left {
-        background: #5B6076;
-        right: 50%;
-        width: 50%;
-    }
-
-    .right {
-        background: #66BBDE;
-        right: 0;
-        width: 50%;
-    }
+.el {
+    position: absolute;
+    opacity: 1;
+    width: 2px;
+    height: 24vh;
+    margin-top: -12vh;
+    transform-origin: 50% 100%;
+    background: white;
 }

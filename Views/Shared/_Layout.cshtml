@@ -20,7 +20,7 @@
                                 </polygon>
                                 <text x="73" y="55" text-anchor="end"
                                       fill="white" font-size="30" class="signature">MNK</text>
-                            </svg>                           
+                            </svg>
                         </a>
                     </li>
                 </ul>
@@ -29,41 +29,54 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">                
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
                 <ul class="navbar-nav ml-auto">
-                    
-                    <li  class="nav-item"><a class="nav-link" asp-page="/Home/AboutMe"> <numbering>01. </numbering>  About Me </a></li>
+
+                    <li class="nav-item"><a class="nav-link" asp-page="/Home/AboutMe"> <numbering>01. </numbering>  About Me </a></li>
                     <li class="nav-item"><a class="nav-link" asp-page="/Home/Experience"><numbering>02. </numbering>Experience</a></li>
                     <li class="nav-item"><a class="nav-link" asp-page="/Events/Index"><numbering>03. </numbering>Projects</a></li>
                     <li class="nav-item"><a class="nav-link" asp-page="/Home/Contact"><numbering>04. </numbering>Contact</a></li>
                     <li class="nav-item">
                         <button class="resume-button" asp-page="/Home/Contact">Resume</button>
                     </li>
-                </ul>                
+                </ul>
             </div>
         </nav>
     </header>
     <div class="container-fluid">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
 
-            <div class="row">
-
-
-                    <main role="main" class="pb-3">
-                        @RenderBody()
-                    </main>
-            </div>
-        
+    </div>
+    <div id="pageloader"
+              <div class="wrapper">
+                  <p class="cta">MNK<span></span></p>
+              </div>
     </div>
 
-        <footer class="border-top footer text-muted">
-            <div class="container">
-                &copy; 2020 - Resume2 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-            </div>
-        </footer>
-        <script src="~/lib/jquery/dist/jquery.min.js"></script>
-        <script src="~/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="~/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="~/js/site.js" asp-append-version="true"></script>
-        @RenderSection("Scripts", required: false)
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2020 - Resume2 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+    <script src="~/velocityjs/src/velocity.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
+    <script src="~/animejs/lib/anime.es.js"></script>
+    <script src="~/animejs/lib/anime.min.js"></script>
+    <script src="~/animejs/lib/anime.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>
+
+
