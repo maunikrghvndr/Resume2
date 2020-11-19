@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <PackageReference Include="BuildWebCompiler" Version="1.12.405" />
-    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.9" />
     <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="4.0.3">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Angular\" />
+    <Folder Include="Angular\resume-angular-app\ClientApp\src\Work\" />
   </ItemGroup>
 
 </Project>
